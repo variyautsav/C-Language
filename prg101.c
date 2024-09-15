@@ -1,21 +1,17 @@
-//NRNP:-no return no peramiter
-#include<iostream>
-using namespace std;
- void sum()
- {
-    int a,b,c;
-    cout<<"entre the a:";
-    cin>>a;
-    cout<<"entre the b:";
-    cin>>b;
+// do_while 1.3.5. total=25
+#include<stdio.h>
+int main()
+{
+    int i,sum=0;
+    i=0;
+    do
 
-    c=a+b;
+    {   sum=sum+i;
+        i+=2;
+    }
 
-    cout<<"sum"<<c;
+    while(i<=10);
+    printf("%d",sum);
 
- }
- int main()
- {
-    sum();
     return 0;
- }
+}
