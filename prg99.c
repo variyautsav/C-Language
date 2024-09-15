@@ -1,18 +1,15 @@
-// do_while 1.3.5. total=25
-#include<iostream>
-using namespace std;
+#include<stdio.h>
 int main()
 {
     int i,sum=0;
-    i=0;
+    i=1;
     do
-
-    {   sum=sum+i;
-        i+=2;
+    {
+     sum=sum+i;
+     i++;
     }
-
     while(i<=10);
-    cout<<sum;
+    printf("%d",sum);
 
     return 0;
 }
