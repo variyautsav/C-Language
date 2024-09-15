@@ -1,23 +1,16 @@
-
-/*
-Function
-WRWP-With Return with parameter
-*/
-#include<iostream>
-using namespace std;
-int doSum(int a,int b)
-{
-    return a+b;
-}
+// 1.4.9.16.25
+#include<stdio.h>
 int main()
 {
-    int a,b,sum;
-    int doSum(int,int);
-    cout<<"Enter a: ";
-    cin>>a;
-    cout<<"Enter b: ";
-    cin>>b;
-    sum=doSum(a,b);
-    cout<<sum;
+    int i,sum=0;
+    i=1;
+    do
+    {
+     sum=i*i;
+     printf("%d ",sum );
+     i++;
+    }
+    while(i<=10);
     return 0;
+
 }
