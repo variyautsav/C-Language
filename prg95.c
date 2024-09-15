@@ -1,12 +1,13 @@
+// while a.....z;
 #include<stdio.h>
 int main()
 {
     int i;
-   i=1;
-   do
-   {
-    printf("%d \t" , i+=2);
-   }
-   while(i<=50);
-   return 0;
+    i=65;
+    while(i<=90)
+    {
+        printf("%c \t ",i++);
+
+    }
+    return 0;
 }
