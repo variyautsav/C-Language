@@ -1,23 +1,24 @@
-/*
-Function
-WRWP-With Return no parameter
-*/
-#include<iostream>
-using namespace std;
-int sum()
-{
-  int a,b;
-  cout<<"entre the a:";
-  cin>>a;
-  cout<<"entre the b:";
-  cin>>b;
-
-  return a+b;
-
-}
+// while 1.4.3.16
+#include<stdio.h>
 int main()
 {
-    int total;
-    total= sum();
-    cout<<total;
+    int i,sum=0;
+    i=1;
+    while(i<=10)
+    {
+        if(i%2==0)
+        {
+          sum=i*i;
+          printf("%d \n", sum);
+        }
+        else
+        {
+
+            printf("%d \n",i);
+
+        }
+        i++;
+    }
+    return 0;
+
 }
