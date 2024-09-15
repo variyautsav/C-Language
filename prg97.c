@@ -1,16 +1,15 @@
-#include<iostream>
-using namespace std;
+// do while 65-A ...... 90-Z
+#include<stdio.h>
 int main()
 {
-    int i,sum=0;
-    i=1;
+    int i;
+    i=65;
     do
     {
-     sum=sum+i;
-     i++;
-    }
-    while(i<=10);
-    cout<<sum;
+        printf("%d -%c \t",i,i++);
 
+    }
+    while(i<=90);
     return 0;
+
 }
