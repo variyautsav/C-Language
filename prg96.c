@@ -1,15 +1,13 @@
-// n to 1
-#include<iostream>
-using namespace std;
+// while a.....z;
+#include<stdio.h>
 int main()
 {
-    int i,n;
-    cout<<" entre the n :";
-    cin>>n;
-    i=n;
-    while(i>=1)
+    int i;
+    i=65;
+    while(i<=90)
     {
-        cout<<i--;
+        printf("%c \t ",i++);
+
     }
     return 0;
 }
