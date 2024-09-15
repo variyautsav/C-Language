@@ -1,14 +1,14 @@
-// while 1.3.5. total=25
-#include<iostream>
-using namespace std;
+// n to 1
+#include<stdio.h>
 int main()
 {
-    int i,sum=0;
-    i=1;
-    while(i<=10)
-    {   sum=sum+i;
-        i+=2;
+    int i,n;
+    printf(" entre the n :");
+    scanf("%d", &n);
+    i=n;
+    while(i>=1)
+    {
+        printf("%d",i--);
     }
-    cout<<sum;
     return 0;
 }
