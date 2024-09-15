@@ -1,20 +1,15 @@
-//NRWA:- No return with arguement
-
-#include<iostream>
-using namespace std;
-
-void sum(int a,int b)
-{
-    cout<<a+b;
-}
+// while table
+#include<stdio.h>
 int main()
 {
-    int a,b;
-    cout<<"entre the a:";
-    cin>>a;
-    cout<<"entre the b:";
-    cin>>b;
-
-    sum(a,b);
+    int i,n,total;
+    printf("entre the n:");
+    scanf("%d",&n);
+    i=1;
+    while(i<=10)
+    {
+        printf("%d * %d = %d  \n ",i,n,i*n);
+        i++;
+    }
     return 0;
 }
