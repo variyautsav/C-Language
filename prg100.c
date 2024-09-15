@@ -1,16 +1,13 @@
-// while table
-#include<iostream>
-using namespace std;
+// while 1.3.5. total=25
+#include<stdio.h>
 int main()
 {
-    int i,n,total;
-    cout<<"entre the n:";
-    cin>>n;
+    int i,sum=0;
     i=1;
     while(i<=10)
-    {
-        cout<<i<<" * "<< n <<"="<< i*n  <<"\n ";
-        i++;
+    {   sum=sum+i;
+        i+=2;
     }
+    printf("%d",sum);
     return 0;
 }
