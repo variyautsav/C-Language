@@ -18,9 +18,5 @@ int main()
     b[k]='\0';
     printf(" revers the strinng =  %s ",b);
 
-
-
-
-
    return 0;
 }
